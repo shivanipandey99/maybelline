@@ -407,9 +407,11 @@ color: #fff;
 font-size: 22px;
 }
 #neutral .neutraldiv div{
-  position: absolute;
-  
+ 
+  margin-top: -10%;
+  position: relative;
 }
+
 #neutral1 img {
     width: 50%;
     height: 20%;
@@ -434,129 +436,253 @@ font-size: 22px;
   width: 100%;
   height: 550px;
   border: 2px solid black;
+  /* margin-top: 10%; */
 
  
 }
+#AA1 h1{
+  font-size: 50px;
+  margin-bottom: -1%;
+  margin-right: 50%;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ #AA1 p{
+  font-size: 18px;
+  font-family:sans-serif ;
+  
+  }
 #AA1 img{
   width: 100%;
 }
-#AA1div h1{
-  margin-bottom: 40%;
-}
+#AA1 div h1{
+  margin-top:-200px ;
+  margin-left: 55%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  }
+#AA1 div p{
+  margin-top: -1%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  }
+#AA1 button{
+  background-color: transparent; 
+ /* border: 1PX solid white; */
+ margin-top: -0%;
+ margin-left: 500px;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+ font-size: 18px;
+  }
+
 /* ************************************************* */
-#BB1div{
+#BB1{
   width: 100%;
-  height: 50vh;
-  margin-top: 50%;
-  padding-top: 50%;
+  height: 500px;
+  border: 2px solid black;
+  /* margin-top: 10%; */
+
+ 
 }
-#BB1div .img{
-  width: 50%;
-  height: 100vh;
-  margin-top: 50%;
-  padding-top: 50%;
-} 
+#BB1 h1{
+  font-size: 50px;
+  margin-bottom: -1%;
+  margin-right: 50%;
+  font-family: 'Times New Roman', Times, serif;
+ }
+ #BB1 p{
+  font-size: 18px;
+  font-family:sans-serif ;
+  
+  }
+#BB1 img{
+  width: 100%;
+}
+#BB1 div h1{
+  margin-top:-200px ;
+  margin-right:7%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+ 
+  }
+#BB1 div p{
+  
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  }
+#BB1 button{
+  background-color: transparent; 
+
+ /* margin-top: -7%; */
+ margin-left: 500px;
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: #fff;
+ font-size: 18px;
+  }
+
 /* ************************************** */
-
-
 footer {
-    background-color: black;
-    color: #fff;
-    padding: 70px;
-    font-size: 16px;
-    gap: 40px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     /* flex-wrap: wrap;  */
-    gap: 20;
-}
-
-.footer-left, .footer-links, .footer-social {
-    flex: 9;
-    gap: 30px;
-}
-
-.MEGA1 ul {
-    list-style: none;
-    padding: 0;
-    
-}
-
-.MEGA1 ul li {
-    margin: 5px 0;
-    
-}
-
-.MEGA1 a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-    font-size: 18px;
-    font-family:  sans-serif;
-   
-}
-.MEGA2 a{
-  color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-logo .logo {
+  max-width: 150px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin: 8px 0;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #ff4081; /* A soft pink */
+}
+
+.footer-links1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links1 ul li {
+  margin: 8px 0;
+}
+
+.footer-links1 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links1 ul li a:hover {
+  color: #ff4081; /* A soft pink */
+}
+.footer-links2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links2 ul li {
+  margin: 8px 0;
+}
+
+.footer-links2 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links2 ul li a:hover {
+  color: #ff4081; /* A soft pink */
+}
+.footer-links3 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links3 ul li {
+  margin: 8px 0;
+}
+
+.footer-links3 ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-links3 ul li a:hover {
+  color: #ff4081; /* A soft pink */
+}
+.footer-social a {
+  margin: 0 10px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #444;
+  text-align: center;
+  line-height: 30px;
+  color: white;
   font-size: 18px;
-  font-family:  sans-serif;
+  transition: background-color 0.3s;
 }
-.MEGA3 a{
-  color: white;
+
+.footer-social a:hover {
+  background-color: #ff4081;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
   font-size: 12px;
-  font-family:  sans-serif;
-}
-.MEGA4 a{
-  color: white;
-  font-size: 12px;
-  font-family:  sans-serif;
 }
 
-.MEGA1 a:hover {
-    color: #f4b400; /* Maybelline yellow */
-
-}
-.MEGA2 a:hover {
-  color:red; /* Maybelline yellow */
-  
-}
-.MEGA3 a:hover {
-  color:violet; /* Maybelline yellow */
-  
-}
-.MEGA4 a:hover {
-  color:blue; /* Maybelline yellow */
-  
+.footer-bottom p {
+  margin: 0;
 }
 
-.footer-social {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 30%;
-    font-size: large;
+/* Social Icon Styling (Can replace with actual icon font or SVG) */
+.footer-social .facebook {
+  background-color: #3b5998;
 }
 
-
-.footer-social .social-icon img {
-    width: 30px;
-    height: 30px;
-    transition: transform 0.3s;
+.footer-social .instagram {
+  background-color: #e1306c;
 }
 
-.footer-social .social-icon img:hover {
-    transform: scale(1.1);
+.footer-social .twitter {
+  background-color: #1da1f2;
 }
 
-footer p {
-    margin-top: 10px;
-    font-size: 12px;
-    color: white;
+.footer-social .youtube {
+  background-color: #ff0000;
 }
 /* *********************************** */
 @media screen and (max-width: 480px) {
