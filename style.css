@@ -4,7 +4,7 @@
         padding: 0px;
         box-sizing:border-box;
         text-decoration: none;
-    }
+    /* }
     .navbar{
       height: 150px;
       background: black; 
@@ -81,7 +81,7 @@
   .menu-checkbox:checked~ nav ul{
       display: flex;
       background-color: rgba(0, 0, 0, 0.464);
-  } 
+  }  */
 
     
     /* ************************************* */
