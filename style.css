@@ -545,7 +545,7 @@ font-size: 22px;
   }
 
 /* ************************************** */
-footer {
+/* footer {
 height: 50vh;
   background-color: black;
   color: white;
@@ -692,7 +692,7 @@ height: 50vh;
 
 .footer-social .youtube {
   background-color: #ff0000;
-}
+} */
 /* *********************************** */
 @media screen and (max-width: 480px) {
   .navbar{
