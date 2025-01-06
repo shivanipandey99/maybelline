@@ -4,7 +4,7 @@
         padding: 0px;
         box-sizing:border-box;
         text-decoration: none;
-    /* }
+     }
     .navbar{
       height: 150px;
       background: black; 
@@ -63,11 +63,11 @@
       padding-left: 40%;
     }
     .menu-icon{
-       /* display: none;  */
+        display: none;  
        color: aqua;
     }
     .menu-checkbox{
-       /* display: none;  */
+        display: none;  
     }
     .menu-icon{
         display: flex;
@@ -81,7 +81,7 @@
   .menu-checkbox:checked~ nav ul{
       display: flex;
       background-color: rgba(0, 0, 0, 0.464);
-  }  */
+  }  
 
     
     /* ************************************* */
