@@ -1,0 +1,84 @@
+
+*{
+    margin: 0px;
+        padding: 0px;
+        box-sizing:border-box;
+        text-decoration: none;
+     }
+    .navbar{
+      height: 150px;
+      background: black; 
+      font-family:sans-serif;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .navd1{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo{
+        font-size: x-large;
+        color: aliceblue;
+    }
+    .logo h6{
+    padding-left: 50%;
+    font-size: 10px;
+    }
+    .logo a {
+      font-size: 180%;
+      font-weight: 700;
+      color:rgb(255, 255, 255);
+      padding-left: 40%;
+      
+    }
+    
+    
+    li{
+      list-style: none;
+      display: inline-block; 
+     
+    }
+    
+    li a{
+      color: white;
+      font-size: 18px;
+      font: weight 100px;;
+      margin-left: 10px;
+    
+    }
+  
+  
+    .nav1 a:hover{
+      color: green(241, 21, 21);
+    }
+    
+    .nav1 ul li a:hover{
+        color: red;
+    }
+    .nav1 nav ul button a:hover{
+      color: maroon;
+    }
+    .menu-icon{
+      padding-left: 40%;
+    }
+    .menu-icon{
+        display: none;  
+       color: aqua;
+    }
+    .menu-checkbox{
+        display: none;  
+    }
+    .menu-icon{
+        display: flex;
+         margin-left: 58%;   
+    }
+    .menu-icon {
+      display: block;
+      font-size: 1.5rem;
+      cursor: pointer;
+   }
+  .menu-checkbox:checked~ nav ul{
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.464);
+  }  
